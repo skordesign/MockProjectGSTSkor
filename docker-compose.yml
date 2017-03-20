@@ -1,0 +1,8 @@
+version: '2'
+
+services:
+  mockproject:
+    image: mockproject
+    build:
+      context: ./MockProject
+      dockerfile: Dockerfile
